@@ -1,0 +1,5 @@
+[Bug]: Script tag not supported in react components
+ suppress React 19 script warning by not rendering ThemeScript on client
+[Bug]: Uncaught ReferenceError: __name is not defined in Injected Theme Script
+feat: generate script text at build time
+[Feature request]: generate the script string at build time

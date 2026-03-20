@@ -1,0 +1,19 @@
+## Problem
+
+Since Next.js 16.2 `ThemeProvider` triggers a browser warning:
+
+```
+Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead
+```
+
+Reported in #385.
+
+## Fix
+
+Return `null` from `ThemeScript` when running on the client
+(`typeof window !== 'undefined'`). The script only needs to be present in the
+SSR-generated HTML where the browser executes it once before hydration. After
+that it is no longer needed.
+
+The existing `nonce` prop, which was already gated behind
+`typeof window === 'undefined'`, is simplified accordingly.
