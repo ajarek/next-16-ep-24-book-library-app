@@ -1,10 +1,10 @@
 export const bookGenres = [
     "Wszystkie",
-    "Klasyka",
-    "Fantastyka",
-    "Kryminał",
-    "Romans",
-    "Thriller",
-    "Science Fiction",
-    "Horror",
+    "Powieść",
+    "Bajka",
+    "Wiersz",
+    "Opowiadanie",
+    "Tragedia",
+    "Reportaż",
+    "Pamiętnik",
 ]
