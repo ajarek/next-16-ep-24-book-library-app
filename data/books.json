@@ -5,7 +5,6 @@
         "cover_color": "#961060",
         "author": "Björnstjerne Björnson",
         "cover": "https://wolnelektury.pl/media/book/cover/bjornson-dziewcze-ze-slonecznego-wzgorza.jpg",
-        "href": "https://wolnelektury.pl/api/books/bjornson-dziewcze-ze-slonecznego-wzgorza/?format=json",
         "genre": "Powieść"
     },
     {
@@ -14,7 +13,6 @@
         "cover_color": "#961060",
         "author": "Björnstjerne Björnson",
         "cover": "https://wolnelektury.pl/media/book/cover/jednozenstwo-i-wielozenstwo.jpg",
-        "href": "https://wolnelektury.pl/api/books/jednozenstwo-i-wielozenstwo/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -23,7 +21,6 @@
         "cover_color": "#961060",
         "author": "Björnstjerne Björnson",
         "cover": "https://wolnelektury.pl/media/book/cover/bjornson-marsz-weselny.jpg",
-        "href": "https://wolnelektury.pl/api/books/bjornson-marsz-weselny/?format=json",
         "genre": "Powieść"
     },
     {
@@ -32,7 +29,6 @@
         "cover_color": "#961060",
         "author": "Björnstjerne Björnson",
         "cover": "https://wolnelektury.pl/media/book/cover/pyl.jpg",
-        "href": "https://wolnelektury.pl/api/books/pyl/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -41,7 +37,6 @@
         "cover_color": "#7784e0",
         "author": "José Echegaray y Eizaguirre",
         "cover": "https://wolnelektury.pl/media/book/cover/echegaray-galeotto.jpg",
-        "href": "https://wolnelektury.pl/api/books/echegaray-galeotto/?format=json",
         "genre": "Tragedia"
     },
     {
@@ -50,7 +45,6 @@
         "cover_color": "#7784e0",
         "author": "Anatole France",
         "cover": "https://wolnelektury.pl/media/book/cover/do-charlesa-maurrasa.jpg",
-        "href": "https://wolnelektury.pl/api/books/do-charlesa-maurrasa/?format=json",
         "genre": "Wiersz"
     },
     {
@@ -59,7 +53,6 @@
         "cover_color": "#7784e0",
         "author": "Anatole France",
         "cover": "https://wolnelektury.pl/media/book/cover/france-gospoda-pod-krolowa-gesia-nozka.jpg",
-        "href": "https://wolnelektury.pl/api/books/france-gospoda-pod-krolowa-gesia-nozka/?format=json",
         "genre": "Powieść"
     },
     {
@@ -68,7 +61,6 @@
         "cover_color": "#7784e0",
         "author": "Anatole France",
         "cover": "https://wolnelektury.pl/media/book/cover/manekin-trzcinowy.jpg",
-        "href": "https://wolnelektury.pl/api/books/manekin-trzcinowy/?format=json",
         "genre": "Powieść"
     },
     {
@@ -77,7 +69,6 @@
         "cover_color": "#7784e0",
         "author": "Anatole France",
         "cover": "https://wolnelektury.pl/media/book/cover/poglady-ksiedza-hieronima-coignarda.jpg",
-        "href": "https://wolnelektury.pl/api/books/poglady-ksiedza-hieronima-coignarda/?format=json",
         "genre": "Powieść"
     },
     {
@@ -86,7 +77,6 @@
         "cover_color": "#7784e0",
         "author": "Anatole France",
         "cover": "https://wolnelektury.pl/media/book/cover/w-cieniu-wiazow.jpg",
-        "href": "https://wolnelektury.pl/api/books/w-cieniu-wiazow/?format=json",
         "genre": "Powieść"
     },
     {
@@ -95,7 +85,6 @@
         "cover_color": "#7784e0",
         "author": "Anatole France",
         "cover": "https://wolnelektury.pl/media/book/cover/france-zbrodnia-sylwestra-bonnard.jpg",
-        "href": "https://wolnelektury.pl/api/books/france-zbrodnia-sylwestra-bonnard/?format=json",
         "genre": "Powieść"
     },
     {
@@ -104,7 +93,6 @@
         "cover_color": "#06393d",
         "author": "André Gide",
         "cover": "https://wolnelektury.pl/media/book/cover/gide-lochy-watykanu.jpg",
-        "href": "https://wolnelektury.pl/api/books/gide-lochy-watykanu/?format=json",
         "genre": "Powieść"
     },
     {
@@ -113,7 +101,6 @@
         "cover_color": "#06393d",
         "author": "Karl Gjellerup",
         "cover": "https://wolnelektury.pl/media/book/cover/mlyn-na-wzgorzu.jpg",
-        "href": "https://wolnelektury.pl/api/books/mlyn-na-wzgorzu/?format=json",
         "genre": "Powieść"
     },
     {
@@ -122,7 +109,6 @@
         "cover_color": "#06393d",
         "author": "Knut Hamsun",
         "cover": "https://wolnelektury.pl/media/book/cover/hamsun-blogoslawienstwo-ziemi.jpg",
-        "href": "https://wolnelektury.pl/api/books/hamsun-blogoslawienstwo-ziemi/?format=json",
         "genre": "Powieść"
     },
     {
@@ -131,7 +117,6 @@
         "cover_color": "#06393d",
         "author": "Knut Hamsun",
         "cover": "https://wolnelektury.pl/media/book/cover/hamsun-glod.jpg",
-        "href": "https://wolnelektury.pl/api/books/hamsun-glod/?format=json",
         "genre": "Powieść"
     },
     {
@@ -140,7 +125,6 @@
         "cover_color": "#7784e0",
         "author": "Paul Heyse",
         "cover": "https://wolnelektury.pl/media/book/cover/heyse-cztery-kobiety.jpg",
-        "href": "https://wolnelektury.pl/api/books/heyse-cztery-kobiety/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -149,7 +133,6 @@
         "cover_color": "#7784e0",
         "author": "Paul Heyse",
         "cover": "https://wolnelektury.pl/media/book/cover/dziecie-wieszczek.jpg",
-        "href": "https://wolnelektury.pl/api/books/dziecie-wieszczek/?format=json",
         "genre": "Powieść"
     },
     {
@@ -158,7 +141,6 @@
         "cover_color": "#06393d",
         "author": "Rudyard Kipling",
         "cover": "https://wolnelektury.pl/media/book/cover/kipling-druga-ksiega-dzungli.jpg",
-        "href": "https://wolnelektury.pl/api/books/kipling-druga-ksiega-dzungli/?format=json",
         "genre": "Powieść"
     },
     {
@@ -167,7 +149,6 @@
         "cover_color": "#06393d",
         "author": "Rudyard Kipling",
         "cover": "https://wolnelektury.pl/media/book/cover/kapitanowie-zuchy.jpg",
-        "href": "https://wolnelektury.pl/api/books/kapitanowie-zuchy/?format=json",
         "genre": "Powieść"
     },
     {
@@ -176,7 +157,6 @@
         "cover_color": "#06393d",
         "author": "Rudyard Kipling",
         "cover": "https://wolnelektury.pl/media/book/cover/ksiega-dzungli.jpg",
-        "href": "https://wolnelektury.pl/api/books/ksiega-dzungli/?format=json",
         "genre": "Powieść"
     },
     {
@@ -185,7 +165,6 @@
         "cover_color": "#06393d",
         "author": "Rudyard Kipling",
         "cover": "https://wolnelektury.pl/media/book/cover/kipling-puk-z-pukowej-gorki.jpg",
-        "href": "https://wolnelektury.pl/api/books/kipling-puk-z-pukowej-gorki/?format=json",
         "genre": "Powieść"
     },
     {
@@ -194,7 +173,6 @@
         "cover_color": "#06393d",
         "author": "Rudyard Kipling",
         "cover": "https://wolnelektury.pl/media/book/cover/kipling-stalky-i-spolka.jpg",
-        "href": "https://wolnelektury.pl/api/books/kipling-stalky-i-spolka/?format=json",
         "genre": "Powieść"
     },
     {
@@ -203,7 +181,6 @@
         "cover_color": "#06393d",
         "author": "Rudyard Kipling",
         "cover": "https://wolnelektury.pl/media/book/cover/kipling-takie-sobie-bajeczki.jpg",
-        "href": "https://wolnelektury.pl/api/books/kipling-takie-sobie-bajeczki/?format=json",
         "genre": "Bajka"
     },
     {
@@ -212,7 +189,6 @@
         "cover_color": "#7784e0",
         "author": "Selma Lagerlöf",
         "cover": "https://wolnelektury.pl/media/book/cover/gosta-berling.jpg",
-        "href": "https://wolnelektury.pl/api/books/gosta-berling/?format=json",
         "genre": "Powieść"
     },
     {
@@ -221,7 +197,6 @@
         "cover_color": "#3044cf",
         "author": "Selma Lagerlöf",
         "cover": "https://wolnelektury.pl/media/book/cover/lagerlof-kazanie-babki.jpg",
-        "href": "https://wolnelektury.pl/api/books/lagerlof-kazanie-babki/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -230,7 +205,6 @@
         "cover_color": "#7784e0",
         "author": "Selma Lagerlöf",
         "cover": "https://wolnelektury.pl/media/book/cover/tetniace-serce.jpg",
-        "href": "https://wolnelektury.pl/api/books/tetniace-serce/?format=json",
         "genre": "Powieść"
     },
     {
@@ -239,7 +213,6 @@
         "cover_color": "#7784e0",
         "author": "Maurice Maeterlinck",
         "cover": "https://wolnelektury.pl/media/book/cover/maeterlinck-slepcy.jpg",
-        "href": "https://wolnelektury.pl/api/books/maeterlinck-slepcy/?format=json",
         "genre": "Tragedia"
     },
     {
@@ -248,7 +221,6 @@
         "cover_color": "#7784e0",
         "author": "Maurice Maeterlinck",
         "cover": "https://wolnelektury.pl/media/book/cover/maeterlinck-wnetrze.jpg",
-        "href": "https://wolnelektury.pl/api/books/maeterlinck-wnetrze/?format=json",
         "genre": "Tragedia"
     },
     {
@@ -257,7 +229,6 @@
         "cover_color": "#7784e0",
         "author": "Maurice Maeterlinck",
         "cover": "https://wolnelektury.pl/media/book/cover/maeterlinck-joyzella.jpg",
-        "href": "https://wolnelektury.pl/api/books/maeterlinck-joyzella/?format=json",
         "genre": "Tragedia"
     },
     {
@@ -266,7 +237,6 @@
         "cover_color": "#961060",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/reymont-bunt.jpg",
-        "href": "https://wolnelektury.pl/api/books/reymont-bunt/?format=json",
         "genre": "Bajka"
     },
     {
@@ -275,7 +245,6 @@
         "cover_color": "#961060",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/chlopi.jpg",
-        "href": "https://wolnelektury.pl/api/books/chlopi/?format=json",
         "genre": "Powieść"
     },
     {
@@ -284,7 +253,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/dwie-wiosny.jpg",
-        "href": "https://wolnelektury.pl/api/books/dwie-wiosny/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -293,7 +261,6 @@
         "cover_color": "#961060",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/fermenty.jpg",
-        "href": "https://wolnelektury.pl/api/books/fermenty/?format=json",
         "genre": "Powieść"
     },
     {
@@ -302,7 +269,6 @@
         "cover_color": "#961060",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/komediantka.jpg",
-        "href": "https://wolnelektury.pl/api/books/komediantka/?format=json",
         "genre": "Powieść"
     },
     {
@@ -311,7 +277,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/reymont-lili.jpg",
-        "href": "https://wolnelektury.pl/api/books/reymont-lili/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -320,7 +285,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/reymont-orka.jpg",
-        "href": "https://wolnelektury.pl/api/books/reymont-orka/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -329,7 +293,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/pewnego-dnia.jpg",
-        "href": "https://wolnelektury.pl/api/books/pewnego-dnia/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -338,7 +301,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/reymont-pielgrzymka-do-jasnej-gory.jpg",
-        "href": "https://wolnelektury.pl/api/books/reymont-pielgrzymka-do-jasnej-gory/?format=json",
         "genre": "Reportaż"
     },
     {
@@ -347,7 +309,6 @@
         "cover_color": "#961060",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/reymont-rewolucja-1905.jpg",
-        "href": "https://wolnelektury.pl/api/books/reymont-rewolucja-1905/?format=json",
         "genre": "Pamiętnik"
     },
     {
@@ -356,7 +317,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/sprawiedliwie.jpg",
-        "href": "https://wolnelektury.pl/api/books/sprawiedliwie/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -365,7 +325,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/tomek-baran.jpg",
-        "href": "https://wolnelektury.pl/api/books/tomek-baran/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -374,7 +333,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/w-jesienna-noc.jpg",
-        "href": "https://wolnelektury.pl/api/books/w-jesienna-noc/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -383,7 +341,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/w-porebie.jpg",
-        "href": "https://wolnelektury.pl/api/books/w-porebie/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -392,7 +349,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/reymont-wampir.jpg",
-        "href": "https://wolnelektury.pl/api/books/reymont-wampir/?format=json",
         "genre": "Powieść"
     },
     {
@@ -401,7 +357,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/z-pamietnika.jpg",
-        "href": "https://wolnelektury.pl/api/books/z-pamietnika/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -410,7 +365,6 @@
         "cover_color": "#961060",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/z-ziemi-chelmskiej.jpg",
-        "href": "https://wolnelektury.pl/api/books/z-ziemi-chelmskiej/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -419,7 +373,6 @@
         "cover_color": "#7784e0",
         "author": "Władysław Stanisław Reymont",
         "cover": "https://wolnelektury.pl/media/book/cover/ziemia-obiecana.jpg",
-        "href": "https://wolnelektury.pl/api/books/ziemia-obiecana/?format=json",
         "genre": "Powieść"
     },
     {
@@ -428,7 +381,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-bajka.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-bajka/?format=json",
         "genre": "Bajka"
     },
     {
@@ -437,7 +389,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/bartek-zwyciezca.jpg",
-        "href": "https://wolnelektury.pl/api/books/bartek-zwyciezca/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -446,7 +397,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-badz-blogoslawiona.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-badz-blogoslawiona/?format=json",
         "genre": "Bajka"
     },
     {
@@ -455,7 +405,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/bez-dogmatu.jpg",
-        "href": "https://wolnelektury.pl/api/books/bez-dogmatu/?format=json",
         "genre": "Powieść"
     },
     {
@@ -464,7 +413,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-co-sie-raz-stalo-w-sydonie.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-co-sie-raz-stalo-w-sydonie/?format=json",
         "genre": "Bajka"
     },
     {
@@ -473,7 +421,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-czy-ci-najmilszy.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-czy-ci-najmilszy/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -482,7 +429,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-diokles.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-diokles/?format=json",
         "genre": "Bajka"
     },
     {
@@ -491,7 +437,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-dwie-laki.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-dwie-laki/?format=json",
         "genre": "Bajka"
     },
     {
@@ -500,7 +445,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-hkt.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-hkt/?format=json",
         "genre": "Bajka"
     },
     {
@@ -509,7 +453,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-jako-sie-pan-lubomirski-nawrocil.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-jako-sie-pan-lubomirski-nawrocil/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -518,7 +461,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/janko-muzykant.jpg",
-        "href": "https://wolnelektury.pl/api/books/janko-muzykant/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -527,7 +469,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/krzyzacy.jpg",
-        "href": "https://wolnelektury.pl/api/books/krzyzacy/?format=json",
         "genre": "Powieść"
     },
     {
@@ -536,7 +477,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/latarnik.jpg",
-        "href": "https://wolnelektury.pl/api/books/latarnik/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -545,7 +485,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-legenda-zeglarska.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-legenda-zeglarska/?format=json",
         "genre": "Bajka"
     },
     {
@@ -554,7 +493,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-listy-z-afryki.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-listy-z-afryki/?format=json",
         "genre": "Reportaż"
     },
     {
@@ -563,7 +501,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-listy-z-podrozy-do-ameryki.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-listy-z-podrozy-do-ameryki/?format=json",
         "genre": "Reportaż"
     },
     {
@@ -572,7 +509,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/na-jasnym-brzegu.jpg",
-        "href": "https://wolnelektury.pl/api/books/na-jasnym-brzegu/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -581,7 +517,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/na-marne.jpg",
-        "href": "https://wolnelektury.pl/api/books/na-marne/?format=json",
         "genre": "Powieść"
     },
     {
@@ -590,7 +525,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-na-olimpie.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-na-olimpie/?format=json",
         "genre": "Bajka"
     },
     {
@@ -599,7 +533,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/niewola-tatarska.jpg",
-        "href": "https://wolnelektury.pl/api/books/niewola-tatarska/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -608,7 +541,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/ogniem-i-mieczem.jpg",
-        "href": "https://wolnelektury.pl/api/books/ogniem-i-mieczem/?format=json",
         "genre": "Powieść"
     },
     {
@@ -617,7 +549,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-orso.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-orso/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -626,7 +557,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/pan-wolodyjowski.jpg",
-        "href": "https://wolnelektury.pl/api/books/pan-wolodyjowski/?format=json",
         "genre": "Powieść"
     },
     {
@@ -635,7 +565,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-plomyk.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-plomyk/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -644,7 +573,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/potop.jpg",
-        "href": "https://wolnelektury.pl/api/books/potop/?format=json",
         "genre": "Powieść"
     },
     {
@@ -653,7 +581,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-pojdzmy-za-nim.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-pojdzmy-za-nim/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -662,7 +589,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-przygoda-arystoklesa.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-przygoda-arystoklesa/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -671,7 +597,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/quo-vadis.jpg",
-        "href": "https://wolnelektury.pl/api/books/quo-vadis/?format=json",
         "genre": "Powieść"
     },
     {
@@ -680,7 +605,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/rodzina-polanieckich.jpg",
-        "href": "https://wolnelektury.pl/api/books/rodzina-polanieckich/?format=json",
         "genre": "Powieść"
     },
     {
@@ -689,7 +613,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-sabalowa-bajka.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-sabalowa-bajka/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -698,7 +621,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-sachem.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-sachem/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -707,7 +629,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-sad-ozyrysa.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-sad-ozyrysa/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -716,7 +637,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/szkice-weglem.jpg",
-        "href": "https://wolnelektury.pl/api/books/szkice-weglem/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -725,7 +645,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-toast.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-toast/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -734,7 +653,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-u-bramy-raju.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-u-bramy-raju/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -743,7 +661,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/w-pustyni-i-w-puszczy.jpg",
-        "href": "https://wolnelektury.pl/api/books/w-pustyni-i-w-puszczy/?format=json",
         "genre": "Powieść"
     },
     {
@@ -752,7 +669,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-we-mgle.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-we-mgle/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -761,7 +677,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-wesele.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-wesele/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -770,7 +685,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-wspomnienie-z-maripozy.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-wspomnienie-z-maripozy/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -779,7 +693,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-wyrok-zeusa.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-wyrok-zeusa/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -788,7 +701,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-z-dawnych-dziejow.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-z-dawnych-dziejow/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -797,7 +709,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-z-kurzem-krwi-bratniej.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-z-kurzem-krwi-bratniej/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -806,7 +717,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-z-pamietnika-poznanskieg-nauczyciela.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-z-pamietnika-poznanskieg-nauczyciela/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -815,7 +725,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/z-puszczy-bialowieskiej.jpg",
-        "href": "https://wolnelektury.pl/api/books/z-puszczy-bialowieskiej/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -824,7 +733,6 @@
         "cover_color": "#961060",
         "author": "Henryk Sienkiewicz",
         "cover": "https://wolnelektury.pl/media/book/cover/sienkiewicz-za-chlebem.jpg",
-        "href": "https://wolnelektury.pl/api/books/sienkiewicz-za-chlebem/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -833,7 +741,6 @@
         "cover_color": "#7784e0",
         "author": "Carl Spitteler",
         "cover": "https://wolnelektury.pl/media/book/cover/krol-jeno.jpg",
-        "href": "https://wolnelektury.pl/api/books/krol-jeno/?format=json",
         "genre": "Wiersz"
     },
     {
@@ -842,7 +749,6 @@
         "cover_color": "#7784e0",
         "author": "Carl Spitteler",
         "cover": "https://wolnelektury.pl/media/book/cover/ojciec.jpg",
-        "href": "https://wolnelektury.pl/api/books/ojciec/?format=json",
         "genre": "Wiersz"
     },
     {
@@ -851,7 +757,6 @@
         "cover_color": "#06393d",
         "author": "Rabindranath Tagore",
         "cover": "https://wolnelektury.pl/media/book/cover/tagore-glodne-kamienie.jpg",
-        "href": "https://wolnelektury.pl/api/books/tagore-glodne-kamienie/?format=json",
         "genre": "Opowiadanie"
     },
     {
@@ -860,7 +765,6 @@
         "cover_color": "#000000",
         "author": "Sigrid Undset",
         "cover": "https://wolnelektury.pl/media/book/cover/undset-pani-marta-oulie.jpg",
-        "href": "https://wolnelektury.pl/api/books/undset-pani-marta-oulie/?format=json",
         "genre": "Powieść"
     }
 ]

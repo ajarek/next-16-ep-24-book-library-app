@@ -4,6 +4,5 @@ export interface BookType {
   cover_color: string
   author: string
   cover: string
-  href: string
   genre: string
 }

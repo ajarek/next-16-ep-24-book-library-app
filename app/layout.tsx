@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/ThemeProvider"
 import Navbar from "@/components/Navbar"
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { Toaster } from "sonner"
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -56,6 +57,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </ThemeProvider>
+        <Toaster position="top-right" richColors />
       </body>
     </html>
     </TooltipProvider>

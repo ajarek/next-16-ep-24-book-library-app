@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "wolnelektury.pl",
+        protocol: 'https',
+        hostname: '**',
       },
     ],
   },

@@ -1,6 +1,6 @@
 "use client"
 
-import {bookGenres} from "@/data/book-genres"
+import { bookGenres } from "@/data/book-genres"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { Controller, useForm } from "react-hook-form"
 import { toast } from "sonner"
@@ -34,47 +34,42 @@ import {
 import { useBooks } from "@/store/booksStore"
 import { BookType } from "@/types/typeBook"
 
-
 const formSchema = z.object({
   title: z.string().min(1, "Tytuł jest wymagany."),
   url: z.string().min(1, "URL jest wymagany."),
   cover_color: z.string().min(1, "Kolor okładki jest wymagany."),
   author: z.string().min(1, "Autor jest wymagany."),
   cover: z.string().min(1, "Okładka jest wymagana."),
-  href: z.string().min(1, "Link jest wymagany."),
   genre: z.string().min(1, "Gatunek jest wymagany."),
 })
-
 
 const AddBooksForm = () => {
   const { addItemToRecords } = useBooks()
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-  title: "",
-  url: "",
-  cover_color: "",
-  author: "",
-  cover: "",
-  href: "",
-  genre: "",
+      title: "",
+      url: "",
+      cover_color: "#000000",
+      author: "",
+      cover: "",
+      genre: "",
     },
   })
 
   function onSubmit(data: z.infer<typeof formSchema>) {
     const record: BookType = {
-     
       title: data.title,
-  url: data.url,
-  cover_color: data.cover_color,
-  author: data.author,
-  cover: data.cover,
-  href: data.href,
-  genre: data.genre,
+      url: data.url,
+      cover_color: data.cover_color,
+      author: data.author,
+      cover: data.cover,
+      genre: data.genre,
     }
+    console.log("lol")
     addItemToRecords(record)
     toast.success("Książka została dodana pomyślnie!", {
-      position: "bottom-right",
+      position: "top-right",
     })
     form.reset()
   }
@@ -107,7 +102,6 @@ const AddBooksForm = () => {
                     aria-invalid={fieldState.invalid}
                     placeholder='Wpisz tytuł książki'
                     autoComplete='off'
-                   
                   />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
@@ -129,7 +123,6 @@ const AddBooksForm = () => {
                     aria-invalid={fieldState.invalid}
                     placeholder='Podaj autora książki'
                     autoComplete='off'
-                   
                   />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
@@ -149,7 +142,6 @@ const AddBooksForm = () => {
                     name={field.name}
                     value={field.value}
                     onValueChange={field.onChange}
-                    
                   >
                     <SelectTrigger
                       id='form-rhf-select-category'
@@ -160,9 +152,9 @@ const AddBooksForm = () => {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectGroup>
-                        {bookGenres.map((genre,index) => (
-                          <SelectItem key={index} value={genre} >
-                             {genre}
+                        {bookGenres.map((genre, index) => (
+                          <SelectItem key={index} value={genre}>
+                            {genre}
                           </SelectItem>
                         ))}
                       </SelectGroup>
@@ -176,7 +168,9 @@ const AddBooksForm = () => {
               control={form.control}
               render={({ field, fieldState }) => (
                 <Field data-invalid={fieldState.invalid}>
-                  <FieldLabel htmlFor='form-rhf-demo-date'>Kolor okładki</FieldLabel>
+                  <FieldLabel htmlFor='form-rhf-demo-date'>
+                    Kolor okładki
+                  </FieldLabel>
                   <Input
                     {...field}
                     type='color'
@@ -196,7 +190,9 @@ const AddBooksForm = () => {
               control={form.control}
               render={({ field, fieldState }) => (
                 <Field data-invalid={fieldState.invalid}>
-                  <FieldLabel htmlFor='form-rhf-demo-cover'>URL Okładki</FieldLabel>
+                  <FieldLabel htmlFor='form-rhf-demo-cover'>
+                    URL Okładki
+                  </FieldLabel>
                   <Input
                     {...field}
                     type='text'
@@ -205,7 +201,6 @@ const AddBooksForm = () => {
                     aria-invalid={fieldState.invalid}
                     placeholder='Wklej link do okładki książki'
                     autoComplete='off'
-                   
                   />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
@@ -214,20 +209,19 @@ const AddBooksForm = () => {
               )}
             />
             <Controller
-              name='href'
+              name='url'
               control={form.control}
               render={({ field, fieldState }) => (
                 <Field data-invalid={fieldState.invalid}>
-                  <FieldLabel htmlFor='form-rhf-demo-href'>Link</FieldLabel>
+                  <FieldLabel htmlFor='form-rhf-demo-url'>URL</FieldLabel>
                   <Input
                     {...field}
                     type='text'
-                    id='form-rhf-demo-href'
+                    id='form-rhf-demo-url'
                     value={field.value}
                     aria-invalid={fieldState.invalid}
-                    placeholder='Wklej link do książki'
+                    placeholder='Wklej URL książki'
                     autoComplete='off'
-                   
                   />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
