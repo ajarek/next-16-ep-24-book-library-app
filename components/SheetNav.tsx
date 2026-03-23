@@ -1,16 +1,13 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
-import { ArrowRight, BookText, List, Mail } from "lucide-react"
+import { BookText, List } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
@@ -27,7 +24,7 @@ export function SheetNav() {
   return (
     <Sheet>
       <Tooltip>
-        <SheetTrigger asChild>
+        <SheetTrigger asChild className='lg:hidden'>
           <TooltipTrigger asChild>
             <List className='size-6 cursor-pointer ' />
           </TooltipTrigger>
@@ -36,7 +33,7 @@ export function SheetNav() {
           <p>Menu</p>
         </TooltipContent>
       </Tooltip>
-      <SheetContent className='  opacity-75 overflow-y-auto sheet-content'>
+      <SheetContent className='lg:hidden   opacity-75 overflow-y-auto sheet-content'>
         <SheetHeader>
           <SheetTitle className='text-xl font-semibold underline underline-offset-4'>
             <Link href="/" className="flex items-center gap-2">

@@ -5,4 +5,5 @@ export interface BookType {
   author: string
   cover: string
   genre: string
+  user_id?: string
 }

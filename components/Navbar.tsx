@@ -6,14 +6,16 @@ import { navLinks } from "@/data/nav-links"
 import { BookText } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { usePathname } from "next/navigation"
+import { Show, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs'
+import { Button } from "./ui/button"
 
 const Navbar = () => {
   const pathname = usePathname()
   return (
     <div className='h-16 w-full max-w-8xl mx-auto border-b-2 border-primary flex justify-between items-center px-4'>
       <Link href='/' className='flex items-center gap-2'>
-        <BookText className='text-primary' size={32} />
-        <h1 className='text-2xl font-bold '>E-Biblioteka</h1>
+        <BookText className='text-primary max-md:hidden' size={32} />
+        <h1 className='text-xl md:text-2xl font-bold '>E-Biblioteka</h1>
       </Link>
       <div className='flex items-center gap-4'>
         <div className="hidden md:flex items-center gap-4">
@@ -28,10 +30,22 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <div className="md:hidden ">
-
+         <Show when="signed-out">
+              <SignInButton>
+                <Button variant="outline" className=" p-2 rounded-md cursor-pointer border-2 border-green-500 hover:border-green-500/60 transition-colors delay-300">
+                  Sign In
+                </Button>
+              </SignInButton>
+              <SignUpButton>
+                <Button variant="outline" className=" p-2 rounded-md cursor-pointer border-2 border-blue-500 hover:border-blue-500/60 transition-colors delay-300">
+                  Sign Up
+                </Button>
+              </SignUpButton>
+            </Show>
+            <Show when="signed-in">
+              <UserButton />
+            </Show>
         <SheetNav />
-        </div>
         <ModeToggle />
       </div>
     </div>

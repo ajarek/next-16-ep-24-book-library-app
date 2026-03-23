@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/ThemeProvider"
 import Navbar from "@/components/Navbar"
 import { TooltipProvider } from "@/components/ui/tooltip"
 import { Toaster } from "sonner"
+import { ClerkProvider } from "@clerk/nextjs"
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -54,8 +55,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <ClerkProvider>
           <Navbar />
           {children}
+          </ClerkProvider>
         </ThemeProvider>
         <Toaster position="top-right" richColors />
       </body>

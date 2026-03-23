@@ -55,19 +55,19 @@ const CatalogsPage = () => {
         ).map((book, index) => (
           <Card key={index} className='w-full shadow-xl p-4' style={{ backgroundColor: book.cover_color }}>
             <Link href={book.url} target='_blank'>
-              <CardHeader className="relative  h-[509px] w-full ">
+              <CardHeader className="relative  h-[460px] w-full ">
                 <Image
                   src={book.cover}
                   alt={book.title}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className='w-full h-full object-cover shadow-lg rounded-lg'
+                  className='w-full h-full object-cover object-center shadow-lg rounded-lg'
                   loading="eager"
                 />
               </CardHeader>
 
               <CardContent>
-                <CardTitle className='text-xl font-bold text-white'>
+                <CardTitle className='text-xl font-bold text-white mt-2'>
                   {book.author}
                 </CardTitle>
                 <CardDescription className='text-lg font-semibold text-white'>
