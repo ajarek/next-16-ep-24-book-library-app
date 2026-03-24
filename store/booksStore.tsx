@@ -1,7 +1,15 @@
 import { create } from "zustand"
 import type { BookType } from "@/types/typeBook"
 import { db } from "@/lib/firebase"
-import { collection, addDoc, onSnapshot, deleteDoc, getDocs, query, where } from "firebase/firestore"
+import {
+  collection,
+  addDoc,
+  onSnapshot,
+  deleteDoc,
+  getDocs,
+  query,
+  where,
+} from "firebase/firestore"
 
 type BookState = {
   items: BookType[]
@@ -16,32 +24,32 @@ export const useBooks = create<BookState>()((set, get) => ({
   initialized: false,
 
   init: () => {
-    if (get().initialized) return;
-    set({ initialized: true });
-    
-    const q = collection(db, "books");
+    if (get().initialized) return
+    set({ initialized: true })
+
+    const q = collection(db, "books")
     onSnapshot(q, (snapshot) => {
-      const items: BookType[] = [];
+      const items: BookType[] = []
       snapshot.forEach((doc) => {
-        items.push(doc.data() as BookType);
-      });
-      set({ items });
-    });
+        items.push(doc.data() as BookType)
+      })
+      set({ items })
+    })
   },
 
   addItemToRecords: async (item: BookType) => {
-    await addDoc(collection(db, "books"), item);
+    await addDoc(collection(db, "books"), item)
   },
 
   removeItemFromRecords: async (title: string) => {
-    const q = query(collection(db, "books"), where("title", "==", title));
-    const querySnapshot = await getDocs(q);
+    const q = query(collection(db, "books"), where("title", "==", title))
+    const querySnapshot = await getDocs(q)
     querySnapshot.forEach(async (document) => {
-      await deleteDoc(document.ref);
-    });
-  }
+      await deleteDoc(document.ref)
+    })
+  },
 }))
 
 if (typeof window !== "undefined") {
-  useBooks.getState().init();
+  useBooks.getState().init()
 }

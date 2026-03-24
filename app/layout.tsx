@@ -35,34 +35,33 @@ export default function RootLayout({
 }>) {
   return (
     <TooltipProvider>
-    <html
-      lang='pl'
-      suppressHydrationWarning
-      className={cn(
-        "h-full",
-        "antialiased",
-        geistSans.variable,
-        geistMono.variable,
-        "font-sans",
-        spaceGrotesk.variable,
-
-      )}
-    >
-      <body className='min-h-full flex flex-col' suppressHydrationWarning>
-        <ThemeProvider
-          attribute='class'
-          defaultTheme='system'
-          enableSystem
-          disableTransitionOnChange
-        >
-          <ClerkProvider>
-          <Navbar />
-          {children}
-          </ClerkProvider>
-        </ThemeProvider>
-        <Toaster position="top-right" richColors />
-      </body>
-    </html>
+      <html
+        lang='pl'
+        suppressHydrationWarning
+        className={cn(
+          "h-full",
+          "antialiased",
+          geistSans.variable,
+          geistMono.variable,
+          "font-sans",
+          spaceGrotesk.variable,
+        )}
+      >
+        <body className='min-h-full flex flex-col' suppressHydrationWarning>
+          <ThemeProvider
+            attribute='class'
+            defaultTheme='system'
+            enableSystem
+            disableTransitionOnChange
+          >
+            <ClerkProvider>
+              <Navbar />
+              {children}
+            </ClerkProvider>
+          </ThemeProvider>
+          <Toaster position='top-right' richColors />
+        </body>
+      </html>
     </TooltipProvider>
   )
 }

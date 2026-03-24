@@ -5,5 +5,4 @@ export const navLinks = [
   { href: "/catalogs", label: "Katalogi", icon: <BookOpenText /> },
   { href: "/add-book", label: "Dodaj książkę", icon: <Plus /> },
   { href: "/library", label: "Biblioteka", icon: <Library /> },
-
 ]

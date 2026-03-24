@@ -13,12 +13,11 @@ import {
 import Image from "next/image"
 import { useState } from "react"
 
-
 const CatalogsPage = () => {
   const { items } = useBooks()
   const [selectedGenre, setSelectedGenre] = useState("Wszystkie")
   return (
-    <div className='min-h-[calc(100vh-4rem)] flex flex-col items-center justify-start p-8 gap-4'>
+    <div className='min-h-[calc(100vh-4rem)] flex flex-col items-center justify-start md:p-8 p-4 gap-4'>
       <div className='max-w-8xl mx-auto flex justify-between items-center gap-2'>
         <h1 className='text-3xl '>Odkryj naszą kolekcję</h1>
       </div>
@@ -48,34 +47,41 @@ const CatalogsPage = () => {
         }
       </h3>
       <div className='w-full max-w-8xl grid lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-4 place-items-center '>
-        {items.filter(
-          (book) =>
-            selectedGenre === "Wszystkie" || book.genre === selectedGenre,
-        ).map((book, index) => (
-          <Card key={index} className='w-full shadow-xl p-4' style={{ backgroundColor: book.cover_color }}>
-            <Link href={book.url} target='_blank'>
-              <CardHeader className="relative  h-[460px] w-full ">
-                <Image
-                  src={book.cover}
-                  alt={book.title}
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className='w-full h-full object-cover object-center shadow-lg rounded-lg'
-                  loading="eager"
-                />
-              </CardHeader>
+        {items
+          .filter(
+            (book) =>
+              selectedGenre === "Wszystkie" || book.genre === selectedGenre,
+          )
+          .sort((a, b) => a.title.localeCompare(b.title))
+          .map((book, index) => (
+            <Card
+              key={index}
+              className='w-full shadow-xl p-4'
+              style={{ backgroundColor: book.cover_color }}
+            >
+              <Link href={book.url} target='_blank'>
+                <CardHeader className='relative  h-[460px] w-full '>
+                  <Image
+                    src={book.cover}
+                    alt={book.title}
+                    fill
+                    sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+                    className='w-full h-full object-cover object-center shadow-lg rounded-lg'
+                    loading='eager'
+                  />
+                </CardHeader>
 
-              <CardContent>
-                <CardTitle className='text-xl font-bold text-white mt-2'>
-                  {book.author}
-                </CardTitle>
-                <CardDescription className='text-lg font-semibold text-white'>
-                  {book.genre}
-                </CardDescription>
-              </CardContent>
-            </Link>
-          </Card>
-        ))}
+                <CardContent>
+                  <CardTitle className='text-xl font-bold text-white mt-2'>
+                    {book.author}
+                  </CardTitle>
+                  <CardDescription className='text-lg font-semibold text-white'>
+                    {book.genre}
+                  </CardDescription>
+                </CardContent>
+              </Link>
+            </Card>
+          ))}
       </div>
     </div>
   )

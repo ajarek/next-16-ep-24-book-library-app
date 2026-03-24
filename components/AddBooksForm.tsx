@@ -33,7 +33,7 @@ import {
 } from "@/components/ui/select"
 import { useBooks } from "@/store/booksStore"
 import { BookType } from "@/types/typeBook"
-import { useUser } from '@clerk/nextjs'
+import { useUser } from "@clerk/nextjs"
 
 const formSchema = z.object({
   title: z.string().min(1, "Tytuł jest wymagany."),
@@ -45,7 +45,6 @@ const formSchema = z.object({
 })
 
 const AddBooksForm = () => {
-
   const { user } = useUser()
   const { addItemToRecords } = useBooks()
   const form = useForm<z.infer<typeof formSchema>>({
@@ -70,7 +69,6 @@ const AddBooksForm = () => {
       genre: data.genre,
       user_id: user?.id,
     }
-    console.log("lol")
     addItemToRecords(record)
     toast.success("Książka została dodana pomyślnie!", {
       position: "top-right",

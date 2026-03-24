@@ -23,7 +23,9 @@ export default function NotFound() {
           </Link>
         </div>
 
-        <p className=''>Kod błędu: <span className="text-primary text-2xl">404</span></p>
+        <p className=''>
+          Kod błędu: <span className='text-primary text-2xl'>404</span>
+        </p>
       </div>
     </main>
   )

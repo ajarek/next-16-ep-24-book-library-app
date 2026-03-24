@@ -1,5 +1,4 @@
 import AddBooksForm from '@/components/AddBooksForm'
-import React from 'react'
 
 const AddBookPage = () => {
   return (

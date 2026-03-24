@@ -36,8 +36,9 @@ export function SheetNav() {
       <SheetContent className='lg:hidden   opacity-75 overflow-y-auto sheet-content'>
         <SheetHeader>
           <SheetTitle className='text-xl font-semibold underline underline-offset-4'>
-            <Link href="/" className="flex items-center gap-2">
-            <BookText className='text-primary' size={32} />E-Biblioteka
+            <Link href='/' className='flex items-center gap-2'>
+              <BookText className='text-primary' size={32} />
+              E-Biblioteka
             </Link>
           </SheetTitle>
         </SheetHeader>
@@ -47,7 +48,10 @@ export function SheetNav() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={cn('flex items-center gap-2 hover:bg-primary/20 transition-colors rounded-md p-2', pathname === link.href && 'bg-primary/20 dark:bg-primary/80')}
+                className={cn(
+                  "flex items-center gap-2 hover:bg-primary/20 transition-colors rounded-md p-2",
+                  pathname === link.href && "bg-primary/20 dark:bg-primary/80",
+                )}
               >
                 {link.icon}
                 <span className='text-sm font-medium'>{link.label}</span>
