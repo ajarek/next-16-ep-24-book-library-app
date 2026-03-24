@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 
 const LibraryPage = () => {
   const { user } = useUser()
-  const { items } = useBooks()
+  const { items,removeItemFromRecords } = useBooks()
   const userBooks = items.filter((book) => book.user_id === user?.id)
   return (
     <div className='min-h-[calc(100vh-4rem)] flex flex-col items-center justify-start p-8 gap-4'>
@@ -42,8 +42,13 @@ const LibraryPage = () => {
                 <CardTitle className='text-xl font-bold text-white mt-2'>
                   {book.author}
                 </CardTitle>
-                <CardDescription className='text-lg font-semibold text-white'>
+                <CardDescription  className=' w-full flex items-center justify-between text-lg font-semibold text-white'>
                   {book.genre}
+                  <Button onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    removeItemFromRecords(book.title);
+                  }} className='rounded-md cursor-pointer z-20'>Usuń</Button>
                 </CardDescription>
               </CardContent>
             </Link>

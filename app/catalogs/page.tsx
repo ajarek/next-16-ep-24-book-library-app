@@ -2,7 +2,6 @@
 import { Button } from "@/components/ui/button"
 import { bookGenres } from "@/data/book-genres"
 import Link from "next/link"
-import Books from "@/data/books.json"
 import { useBooks } from "@/store/booksStore"
 import {
   Card,
@@ -42,7 +41,7 @@ const CatalogsPage = () => {
       <h3 className='text-2xl font-bold'>
         {selectedGenre}{" "}
         {
-          Books.filter(
+          items.filter(
             (book) =>
               selectedGenre === "Wszystkie" || book.genre === selectedGenre,
           ).length

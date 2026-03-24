@@ -1,36 +1,47 @@
 import { create } from "zustand"
-import { persist, createJSONStorage } from "zustand/middleware"
 import type { BookType } from "@/types/typeBook"
-import books from "@/data/books.json"
+import { db } from "@/lib/firebase"
+import { collection, addDoc, onSnapshot, deleteDoc, getDocs, query, where } from "firebase/firestore"
 
 type BookState = {
   items: BookType[]
-  addItemToRecords: (item: BookType) => void
-  removeItemFromRecords: (title: string) => void
-  removeAllFromRecords: () => void
+  initialized: boolean
+  init: () => void
+  addItemToRecords: (item: BookType) => Promise<void>
+  removeItemFromRecords: (title: string) => Promise<void>
 }
 
-export const useBooks = create<BookState>()(
-  persist(
-    (set) => ({
-      items: [...books],
+export const useBooks = create<BookState>()((set, get) => ({
+  items: [],
+  initialized: false,
 
-      addItemToRecords: (item: BookType) =>
-        set((state) => ({
-          items: [item, ...state.items],
-        })),
+  init: () => {
+    if (get().initialized) return;
+    set({ initialized: true });
+    
+    const q = collection(db, "books");
+    onSnapshot(q, (snapshot) => {
+      const items: BookType[] = [];
+      snapshot.forEach((doc) => {
+        items.push(doc.data() as BookType);
+      });
+      set({ items });
+    });
+  },
 
-      removeItemFromRecords: (title) =>
-        set((state) => ({
-          items: state.items.filter((item) => item.title !== title),
-        })),
+  addItemToRecords: async (item: BookType) => {
+    await addDoc(collection(db, "books"), item);
+  },
 
-      removeAllFromRecords: () => set({ items: [] }),
-    }),
+  removeItemFromRecords: async (title: string) => {
+    const q = query(collection(db, "books"), where("title", "==", title));
+    const querySnapshot = await getDocs(q);
+    querySnapshot.forEach(async (document) => {
+      await deleteDoc(document.ref);
+    });
+  }
+}))
 
-    {
-      name: "books",
-      storage: createJSONStorage(() => localStorage),
-    },
-  ),
-)
+if (typeof window !== "undefined") {
+  useBooks.getState().init();
+}
